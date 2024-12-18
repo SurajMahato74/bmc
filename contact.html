@@ -886,63 +886,58 @@
                     </li>
                 </ul>
             </div>
+       
+            <div class="nav-end-image">
+                <img src="image/nav-design.png" style="border: none;">
+            </div>
         </nav>
 
+        
+              
+      
+
         <style>
-            .circ-icons1{
-                position: absolute;
-               display: flex;
-               margin-top: 51vh; 
-               margin-left: -60px;
+            /* Default styling for desktop */
+            .nav-end-image {
+              margin-top: 500px;
+              position: absolute;
+              border: none;
             }
-            .circ-icons2{
-                position: absolute;
-               display: flex;
-               margin-top: 53vh; 
-            }
-            .circ-icons1 .i1{
-                color: rgb(255, 255, 255);
-                font-size: 120px; 
-            }
-            .circ-icons2 .i2{
-                color: rgb(255, 255, 255);
-                font-size: 120px; 
-            }
-        </style>
-        <div class="circ-icons1">
-            <i class="fa-solid fa-circle i1"></i>
-            <i class="fa-solid fa-circle i1"></i>
-            <i class="fa-solid fa-circle i1"></i>
-            <i class="fa-solid fa-circle i1"></i>
-            <i class="fa-solid fa-circle i1"></i>
-            <i class="fa-solid fa-circle i1"></i>
-            <i class="fa-solid fa-circle i1"></i>
-            <i class="fa-solid fa-circle i1"></i>
-            <i class="fa-solid fa-circle i1"></i>
-            <i class="fa-solid fa-circle i1"></i>
-            <i class="fa-solid fa-circle i1"></i>
-            <i class="fa-solid fa-circle i1"></i>
-            <i class="fa-solid fa-circle i1"></i>
-            <i class="fa-solid fa-circle i1"></i>
+          
+     
+/* For iPhones and small screens */
+@media (max-width: 1024px) { /* Covers iPad Pro, iPhones in landscape mode */
+  .nav-end-image {
+    margin-top: 90vh;
+  }
+}
+
+@media (max-width: 834px) { /* Covers iPad Air in portrait mode */
+  .nav-end-image {
+    margin-top: 90vh;
+  }
+}
+
+@media (max-width: 768px) { /* General mobile breakpoint */
+  .nav-end-image {
+    margin-top: 80vh;
+  }
+}
+
+@media (max-width: 640px) { /* iPhone XR, 12 Pro, 13 Pro, etc. */
+  .nav-end-image {
+    margin-top: 89vh;
+  }
+}
+
+@media (max-width: 375px) { /* iPhone SE, smaller devices */
+  .nav-end-image {
+    margin-top: 100vh;
+  }
+}
+
             
-        </div>
-        <div class="circ-icons2">
-            <i class="fa-solid fa-circle i2"></i>
-            <i class="fa-solid fa-circle i2"></i>
-            <i class="fa-solid fa-circle i2"></i>
-            <i class="fa-solid fa-circle i2"></i>
-            <i class="fa-solid fa-circle i2"></i>
-            <i class="fa-solid fa-circle i2"></i>
-            <i class="fa-solid fa-circle i2"></i>
-            <i class="fa-solid fa-circle i2"></i>
-            <i class="fa-solid fa-circle i2"></i>
-            <i class="fa-solid fa-circle i2"></i>
-            <i class="fa-solid fa-circle i2"></i>
-            <i class="fa-solid fa-circle i2"></i>
-            <i class="fa-solid fa-circle i2"></i>
-            <i class="fa-solid fa-circle i2"></i>
-        </div>
-    </div>     
+          </style>
 <style>
     .background-circles {
       position: absolute;
@@ -1315,6 +1310,10 @@ form {
   .foot {
     width: 100vw; /* 100% of the viewport width */
     margin-top: -50px;
+  }
+
+  .top-section{
+    margin-bottom: 60px;
   }
 }
 
