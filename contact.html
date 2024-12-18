@@ -1143,13 +1143,14 @@
 <div> 
 
    <!-- Top Section -->
-<div class="top-section" style="margin-top: -150px;">
+<div class="top-section" style="margin-top: -50px;">
     <!-- Contact Details -->
     <ul class="contact-details">
         <li><i class="fa-solid fa-phone"></i> <a href="tel:+9779801022637">+977-21420900</a></li>
         <li><i class="fa-solid fa-phone"></i> <a href="tel:+977015970120">01-420902</a></li>
-        <li><i class="fa-regular fa-envelope"></i> <a href="mailto:info@heraldcollege.edu.np">info@biratmultiplecollege.edu.np</a></li>
-        <li><i class="fa-solid fa-location-dot"></i> Rajbanshi Chock, Biratnagar, Nepal</li>
+        <li><i class="fa-regular fa-envelope"></i> <a href="mailto:info@heraldcollege.edu.np">bmccollage03@gmail.com</a></li>
+        <li><i class="fa-solid fa-location-dot"></i> Rajbanshi Chock</li>
+        <li><i class="fa-solid "></i> Biratnagar, Nepal</li>
     </ul>
 </div>
 
@@ -1202,16 +1203,20 @@
 
 <style>
     /* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    @media (max-width: 768px) { /* Mobile breakpoint */
+    .bottom-section {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Add some space between the map and the form */
+    }
+
+    .map, 
+    .form-container {
+        flex: 1 1 100%; /* Full width for both map and form */
+    }
+
+   
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-}
 
 /* Top Section */
 .top-section {
