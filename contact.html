@@ -65,7 +65,7 @@
   position: relative; /* Establish a positioning context for the video */
   color: white;
   margin: 0;
-  height: 100vh;
+  height: 63vh;
   padding: 0;
   overflow: hidden;
   background-color: white;
@@ -97,7 +97,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 50vh;
+  height: 80%;
   background-color: rgba(5, 0, 29, 0.7); /* Overlay color with transparency */
   z-index: -1; /* Place above the video but below the content */
 }
@@ -1048,54 +1048,12 @@
       background-color: #1877f2;  /* Facebook blue background */
     }
 </style>
+        </div>
+    </div>
     
     
 <!-- Sidebar -->
 <!-- Sidebar -->
-<div class="sidebar-container" id="sidebar-container" style="cursor: pointer;">
-    <div class="close-btn-x" onclick="closeSidebar()" style="text-align: right; right: 150px;">
-        <i class="fas fa-times"></i>
-    </div>
-    <div class="container">
-        <div class="section">
-            <h2 class="nav-title">ABOUT <span class="toggle-icon">+</span></h2>
-            <ul class="nav-links">
-                <li><a href="about.html">About BMC College</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-            <hr>
-        </div>
-        <div class="section">
-            <h2 class="nav-title">LIFESTYLE <span class="toggle-icon">+</span></h2>
-            <ul class="nav-links">
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="news.html">News & Events</a></li>
-            </ul>
-            <hr>
-        </div>
-        <div class="section">
-            <h2 class="nav-title">ABOUT DEGREE <span class="toggle-icon">+</span></h2>
-            <ul class="nav-links">
-                <li><a href="bit.html">Bachelors in Information Technology</a></li>
-                <li><a href="bim.html">Bachelors in Microbiology</a></li>
-                <li><a href="bft.html">Bachelors in Food Technology</a></li>
-            </ul>
-            <hr>
-        </div>
-        <div class="section">
-            <h2 class="nav-title">STUDENT UPDATE <span class="toggle-icon">+</span></h2>
-            <ul class="nav-links">
-                <li><a href="notice.html">Notice</a></li>
-                <li><a href="admission.html">Admission</a></li>
-               
-            </ul>
-            <hr>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-</div>
 <div class="top-nav" style="background-color: #2a254d; font-weight: 10; color: white; font-style: normal; font-size: 14px;">
     <div class="nav-links">
         <a href="#" style="color: orangered; font-size: 20px;" class="nav-item">
@@ -1143,12 +1101,12 @@
 <div> 
 
    <!-- Top Section -->
-<div class="top-section" style="margin-top: -250px;">
+<div class="top-section" style="margin-top: -50px;">
     <!-- Contact Details -->
     <ul class="contact-details">
         <li><i class="fa-solid fa-phone"></i> <a href="tel:+9779801022637">+977-21420900</a></li>
         <li><i class="fa-solid fa-phone"></i> <a href="tel:+977015970120">01-420902</a></li>
-        <li><i class="fa-regular fa-envelope"></i> <a href="mailto:info@heraldcollege.edu.np">bmccollage03@gmail</a></li>
+        <li><i class="fa-regular fa-envelope"></i> <a href="mailto:info@heraldcollege.edu.np">bmccollage03@gmail.com</a></li>
         <li><i class="fa-solid fa-location-dot"></i> Rajbanshi Chock</li>
         <li><i class="fa-solid "></i> Biratnagar, Nepal</li>
     </ul>
@@ -1224,13 +1182,23 @@
     flex-direction: column;
     align-items: center; /* Center content horizontally */
     justify-content: center; /* Center content vertically */
-    padding: 40px 50px;
+    
     color: black; /* Default text color */
     position: relative;
     overflow: hidden;
+
+    padding-top: 10vw;
+            background-color: rgb(252, 252, 252);
+            
+            padding: 0vw 8vw;
+            padding-bottom: 4vw;
+            margin-top: 10vw;
+            gap: 3vw;
+    
 }
 
 .contact-details {
+    z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: center; /* Center contact list items */
@@ -1468,7 +1436,49 @@ form {
                       </div>
 
 
-
+                      <div class="sidebar-container" id="sidebar-container" style="cursor: pointer;">
+                        <div class="close-btn-x" onclick="closeSidebar()" style="text-align: right; right: 150px;">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <div class="container">
+                            <div class="section">
+                                <h2 class="nav-title">ABOUT <span class="toggle-icon">+</span></h2>
+                                <ul class="nav-links">
+                                    <li><a href="about.html">About BMC College</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                                <hr>
+                            </div>
+                            <div class="section">
+                                <h2 class="nav-title">LIFESTYLE <span class="toggle-icon">+</span></h2>
+                                <ul class="nav-links">
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="news.html">News & Events</a></li>
+                                </ul>
+                                <hr>
+                            </div>
+                            <div class="section">
+                                <h2 class="nav-title">ABOUT DEGREE <span class="toggle-icon">+</span></h2>
+                                <ul class="nav-links">
+                                    <li><a href="bit.html">Bachelors in Information Technology</a></li>
+                                    <li><a href="bim.html">Bachelors in Microbiology</a></li>
+                                    <li><a href="bft.html">Bachelors in Food Technology</a></li>
+                                </ul>
+                                <hr>
+                            </div>
+                            <div class="section">
+                                <h2 class="nav-title">STUDENT UPDATE <span class="toggle-icon">+</span></h2>
+                                <ul class="nav-links">
+                                    <li><a href="notice.html">Notice</a></li>
+                                    <li><a href="admission.html">Admission</a></li>
+                                   
+                                </ul>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
 
 
                       <script>
