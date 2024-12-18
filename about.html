@@ -968,12 +968,65 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="nav-end-image">
+                <img src="image/nav-design.png" style="border: none;">
+            </div>
         </nav>
 
         
-        <div class="nav-end-image" style="margin-top: 33vh; border: none;">
-            <img src="image/nav-design.png" style="border: none;">
-        </div>
+              
+      
+
+        <style>
+            /* Default styling for desktop */
+            .nav-end-image {
+              margin-top: 500px;
+              position: absolute;
+              border: none;
+            }
+          
+            /* Responsive styling for smaller screens */
+           /* Default styling for desktop */
+.nav-end-image {
+  margin-top: 33vh; /* Default for larger screens */
+  border: none;
+}
+
+/* For iPhones and small screens */
+@media (max-width: 1024px) { /* Covers iPad Pro, iPhones in landscape mode */
+  .nav-end-image {
+    margin-top: 50vh;
+  }
+}
+
+@media (max-width: 834px) { /* Covers iPad Air in portrait mode */
+  .nav-end-image {
+    margin-top: 60vh;
+  }
+}
+
+@media (max-width: 768px) { /* General mobile breakpoint */
+  .nav-end-image {
+    margin-top: 80vh;
+  }
+}
+
+@media (max-width: 640px) { /* iPhone XR, 12 Pro, 13 Pro, etc. */
+  .nav-end-image {
+    margin-top: 89vh;
+  }
+}
+
+@media (max-width: 375px) { /* iPhone SE, smaller devices */
+  .nav-end-image {
+    margin-top: 100vh;
+  }
+}
+
+            
+          </style>
+          
 
 <style>
     .background-circles {
